@@ -19,7 +19,6 @@ if (nivel === "normal") {
 function ajustaTamanhoPalcoJogo() {
 	altura = window.innerHeight;
 	largura = window.innerWidth;
-	console.log(largura, altura);
 }
 
 ajustaTamanhoPalcoJogo();
@@ -54,8 +53,6 @@ function posicaoRandomica() {
 
 	posicaoX = posicaoX < 0 ? 0 : posicaoX;
 	posicaoY = posicaoY < 0 ? 0 : posicaoY;
-
-	console.log(posicaoX, posicaoY);
 
 	var mosquito = document.createElement("img");
 	mosquito.src = "imagens/mosquito.png";
